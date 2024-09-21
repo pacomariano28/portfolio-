@@ -1,0 +1,33 @@
+.about:hover {
+
+	.about_img {
+		border: 2px solid #c87e38;
+		padding: .2vw;
+		transform: rotate(5deg);
+		cursor: grab;
+	}
+}
+
+.about_img {
+	padding: .4vw;
+	transform: rotate(3deg);
+	border-radius: inherit;
+	border: 2px solid #c87e38;
+	border-radius: 18px;
+	box-shadow: 17px 26px 20px 12px rgba(0, 0, 0, 0.43);
+	transition: all .3s ease;
+}
+
+.aboutTitle {
+	font-size: 4rem;
+}
+
+section {
+	position: relative;
+}
+
+.curva3 {
+	position: absolute;
+	bottom: 5%;
+	left: 5%;
+}

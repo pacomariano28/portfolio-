@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+:root {
+	--bg-main: #000000;
+	--bg-font: linear-gradient(to right, #e07a43 0%, #c19920 100%);
+	--bg-card: none;
+	--blur-spread: 1.5rem;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: "Space Mono", monospace;
+	user-select: none;
+}
+
+.App {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	background: var(--bg-main);
+	color: #D2D2D2;
+	background-repeat: no-repeat;
+	gap: 20vw;
+}
+
+h1 {
+	font-weight: 750;
+	font-size: 8rem;
+}
+
+.App-header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-size: calc(10px + 2vmin);
+	color: white;
+}
+
+footer {
+	background-color: #0d0d0d;
+}
+
+.gradient {
+	background: var(--bg-font);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	align-items: baseline;
+	width: fit-content;
+}
+
+
+.float {
+	animation: float 1.5s ease-in-out infinite;
+}
+
+.float2 {
+	animation: float2 1.5s ease-in-out infinite;
+}
+
+@keyframes float {
+	0% {
+		transform: translateY(-3px)
+			/* perspective(460px) rotateX(5deg) rotateY(-11deg) translateX(-5%) */
+		;
+	}
+
+	50% {
+		transform: translateY(3px)
+			/* perspective(460px) rotateX(5deg) rotateY(-11deg) translateX(-5%) */
+		;
+	}
+
+	100% {
+		transform: translateY(-3px)
+			/* perspective(460px) rotateX(5deg) rotateY(-11deg) translateX(-5%) */
+		;
+	}
+}
+
+@keyframes float2 {
+	0% {
+		transform: translateY(-3px);
+	}
+
+	50% {
+		transform: translateY(3px);
+	}
+
+	100% {
+		transform: translateY(-3px);
+	}
+}
+
+/* .card-gradient {
+	border-radius: 18px;
+	border: 1px solid #282431;
+	background: linear-gradient(180deg, rgba(35, 26, 61, 1) 0%, rgba(45, 34, 77, 1) 1%, rgba(42, 32, 72, 1) 16%, rgba(33, 25, 58, 1) 30%, rgba(31, 24, 56, 1) 35%, rgba(18, 18, 40, 1) 100%);
+	box-shadow: inset 3px -1px 20px 5px rgba(0, 0, 0, 0.2);
+	transition: all .3s ease;
+} */
+
+/* .card-gradient.is-visible {
+    opacity: 1;
+    transform: none;
+    visibility: visible;
+} */
+
+.card-gradient {
+
+	--clr1: #e07a43;
+	--clr2: #c19920;
+	--clr3: #c87e38;
+
+	position: relative;
+	border-radius: 18px;
+	border-left: 2px solid var(--clr1);
+
+	transition: transform .3s ease .1s, color .5s ease, border .2s .2s, background-color .5s ease;
+
+	view-timeline-name: --card;
+	view-timeline-axis: block;
+
+	animation-timeline: --card;
+	animation-name: show;
+
+	animation-range: entry 25% cover 40%;
+	animation-fill-mode: both;
+
+	&:hover {
+		transform: scale(102%);
+		border-left: 4px solid #c87e38;
+		background-color: #0f0f0f;
+		-webkit-box-shadow: inset 148px 0px 42px -111px rgba(0, 0, 0, 0.75);
+		-moz-box-shadow: inset 148px 0px 42px -111px rgba(0, 0, 0, 0.75);
+		box-shadow: inset 148px 0px 42px -111px rgba(0, 0, 0, 0.75);
+	}
+}
+
+@keyframes show {
+	from {
+		opacity: 0;
+		scale: 55%;
+	}
+
+	to {
+		opacity: 1;
+		scale: 100%;
+	}
+}
+
+@property --angle {
+	syntax: "<angle>";
+	initial-value: 0deg;
+	inherits: false;
+}
+
+@keyframes spin {
+	from {
+		--angle: 0deg
+	}
+
+	to {
+		--angle: 360deg;
+	}
+}
+
+@media (width < 1000px) {
+	h1 {
+		font-size: 4rem;
+	}
+
+	/* .curva,
+	.curva2,
+	.curva3,
+	.strokeNdot>div {
+		display: none;
+	} */
+}
+
+@keyframes fadeIn {
+	from {
+		opacity: 0;
+		transform: translateY(20px);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
+}
+
+.fade-in {
+	opacity: 0;
+	animation: fadeIn 1s forwards;
+}
+
+
+.curva,
+.curva2,
+.curva3,
+.strokeNdot>div {
+	display: none;
+}
