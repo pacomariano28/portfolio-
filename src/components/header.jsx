@@ -21,7 +21,7 @@ export function Header() {
 	return (
 		<section className="header d-flex justify-content-center align-items-center col-4">
 			<div className='header d-flex justify-content-center '>
-				<a href="www.linkedin.com/in/francisco-mariano-ortiz" className="d-flex gap-2 align-items-center headerChild">
+				<a href="https://www.linkedin.com/in/francisco-mariano-ortiz-63636926a/" className="d-flex gap-2 align-items-center headerChild">
 					<svg width="38" height="40" viewBox="0 0 38 40" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<g clipPath="url(#clip0_181_1515)">
 							<path d="M6.30322 9.82933C6.30322 8.96032 6.63527 8.12691 7.22632 7.51243C7.81736 6.89795 8.619 6.55273 9.45486 6.55273H28.3647C29.2006 6.55273 30.0022 6.89795 30.5933 7.51243C31.1843 8.12691 31.5164 8.96032 31.5164 9.82933V29.4889C31.5164 30.3579 31.1843 31.1913 30.5933 31.8058C30.0022 32.4203 29.2006 32.7655 28.3647 32.7655H9.45486C8.619 32.7655 7.81736 32.4203 7.22632 31.8058C6.63527 31.1913 6.30322 30.3579 6.30322 29.4889V9.82933Z" stroke="#EEB831" strokeWidth="2.75" strokeLinecap="round" strokeLinejoin="round" />
