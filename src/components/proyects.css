@@ -2,13 +2,6 @@ section {
 	position: relative;
 }
 
-.curva2 {
-	position: absolute;
-	top: 0;
-	left: 89%;
-	transform: rotate(180deg);
-}
-
 .cards-container {
 	gap: 60px;
 }
@@ -55,7 +48,7 @@ section {
 	padding: 5px 10px;
 	border-radius: 20px;
 	border: 1px solid black;
-	font-size: 0.7em;
+	font-size: 1em;
 	color: #fff;
 
 	

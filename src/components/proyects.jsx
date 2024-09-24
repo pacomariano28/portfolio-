@@ -3,15 +3,8 @@ import './proyects.css';
 
 export function Proyects() {
 	return (
-		<section className='proyects_container d-flex align-items-center justify-content-center w-100'>
+		<section className='proyects_container d-flex align-items-center justify-content-center col-11 '>
 			<div className='col-lg-8 col-12'>
-				<svg className='curva2' width="86" height="81" viewBox="0 0 86 81" fill="none" xmlns="http://www.w3.org/2000/svg">
-					<mask id="path-1-outside-1_199_1091" maskUnits="userSpaceOnUse" x="0" y="0" width="86" height="81" fill="black">
-						<rect fill="white" width="86" height="81" />
-						<path d="M5 0L86 0V76H35C18.4315 76 5 62.5685 5 46V0Z" />
-					</mask>
-					<path d="M5 0L86 0L5 0ZM86 81H35C15.67 81 0 65.33 0 46H10C10 59.8071 21.1929 71 35 71H86V81ZM35 81C15.67 81 0 65.33 0 46V0L10 0V46C10 59.8071 21.1929 71 35 71V81ZM86 0V76V0Z" fill="#e07a43" mask="url(#path-1-outside-1_199_1091)" />
-				</svg>
 				<h2 className="gradient fw-bold">&lt;PROJECTS&gt;</h2>
 				<div className='d-flex flex-column cards-container gap-5'>
 					<ProyectCard
