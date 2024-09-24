@@ -18,7 +18,7 @@ const ProyectCard = ({ title, techs, text, image }) => {
 						</div>
 					))}
 				</div>
-				<p className='mt-3 fs-5 col-11'>{text}</p>
+				<p className='mt-3 fs-5 col-12'>{text}</p>
 			</div>
 		</article>
 

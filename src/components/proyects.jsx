@@ -3,14 +3,14 @@ import './proyects.css';
 
 export function Proyects() {
 	return (
-		<section className='proyects_container d-flex align-items-center justify-content-center col-11 '>
+		<section className='proyects_container d-flex align-items-center justify-content-center col-12 col-lg-10 col-md-10 '>
 			<div className='col-lg-8 col-12'>
 				<h2 className="gradient fw-bold">&lt;PROJECTS&gt;</h2>
 				<div className='d-flex flex-column cards-container gap-5'>
 					<ProyectCard
-						title="API REST"
+						title="Weather App"
 						techs={["Astro", "TailwindCss"]}
-						text="Biblioteca de logos SVG de las marcas más populares. +10k visitas al mes. +2K svgs descargados. Creado desde cero con Next.js, React y Tailwind CSS."
+						text="Aplicación funcional del tiempo. Funcionalidades completas con especial mimo al diseño."
 						image="https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2021/10/visual-studio-code.jpeg?fit=1920%2C1080&quality=50&strip=all&ssl=1"
 					/>
 

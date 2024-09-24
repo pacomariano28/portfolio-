@@ -2,7 +2,7 @@ import './hero.css'
 
 export function Hero() {
 	return (
-		<section className='hero container col-10'>
+		<section className='hero container col-12 col-lg-10 col-md-10'>
 			<div className='d-flex flex-column align-items-start'>
 				<h1 className="gradient">pacode<span className='gradient'>|</span></h1>
 				<span className='ms-2'><span className='text-warning'>Web developer</span> and UI/UX designer</span>
@@ -29,23 +29,23 @@ export function Hero() {
 								<small>March - 2023</small>
 							</section>
 
-							<section>
+							<section className='d-flex flex-column gap-4'>
 								<aside>
 									<h5 className='fw-bold fs-5'>RESPONSABILITIES</h5>
-									<ul className='fs-5'>
+									<div className='fs-5'>
 										<li>Developed an internal application for vacation booking using <strong>React</strong>.</li>
 										<li>Trained in the <strong>latest technologies</strong> used in companies.</li>
 										<li>Practiced <strong>Agile Methodologies</strong>.</li>
-									</ul>
+									</div>
 								</aside>
 
 								<aside>
 									<h5 className='fw-bold fs-5'>KEY ACCOMPLISHMENTS</h5>
-									<ul className='fs-5'>
+									<div className='fs-5'>
 										<li>Awarded <strong>best web design</strong> among candidate projects.</li>
 										<li><strong>Effective responsive design</strong>. </li>
 										<li>Excellent UX.</li>
-									</ul>
+									</div>
 								</aside>
 							</section>
 						</aside>

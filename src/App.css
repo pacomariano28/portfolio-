@@ -136,4 +136,8 @@ footer {
 	h1 {
 		font-size: 4rem;
 	}
+
+	p,li{
+		transform: scale(0.9);
+	}
 }
