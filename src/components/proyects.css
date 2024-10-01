@@ -12,6 +12,10 @@ section {
 	padding: 20px;
 	height: fit-content;
 	cursor: pointer;
+
+	&:hover .image-container{
+		animation: float 1.5s ease infinite;
+	}
 }
 
 .image-container {

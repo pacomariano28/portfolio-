@@ -4,7 +4,7 @@ import './proyects.css';
 const ProyectCard = ({ title, techs, text, image }) => {
 	return (
 		<article className="proyect-card d-flex flex-column flex-lg-row align-items-center justify-content-center card-gradient ps-4 ps-lg-5 gap-4 col-12">
-			<div className="image-container float col-10 col-lg-5 col-md-9 mb-4 mb-lg-0">
+			<div className="image-container col-10 col-lg-5 col-md-9 mb-4 mb-lg-0">
 				<img src={image} alt="proyect img" className='img-fluid rounded-4' />
 			</div>
 
