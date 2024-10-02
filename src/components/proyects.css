@@ -14,7 +14,7 @@ section {
 	cursor: pointer;
 
 	&:hover .image-container{
-		animation: float 1.5s ease infinite;
+		animation: float 1s ease infinite;
 	}
 }
 

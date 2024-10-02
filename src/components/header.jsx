@@ -11,8 +11,7 @@ export function Header() {
 			setShowModal(true);
 			setTimeout(() => {
 				setShowModal(false);
-				// window.location.href = 'https://mail.google.com/mail/?view=cm&fs=1&to=' + gmail;
-			}, 2000);
+			}, 3000);
 		}).catch(err => {
 			console.error("Error al copiar al portapapeles", err);
 		});
@@ -46,7 +45,7 @@ export function Header() {
 					<span className='fw-bolder'>GitHub</span>
 				</a>
 
-				<a href='mailto:pacomariano28@gmail.com' className="d-flex gap-2 align-items-center headerChild" onClick={copyToClipboard} style={{ cursor: 'pointer' }}>
+				<button className="d-flex gap-2 align-items-center headerChild" onClick={copyToClipboard} style={{ cursor: 'pointer' }}>
 					<svg width="38" height="39" viewBox="0 0 38 39" fill="none" xmlns="http://www.w3.org/2000/svg">
 						<g clipPath="url(#clip0_181_1510)">
 							<path d="M4.75 11.375C4.75 10.513 5.08363 9.6864 5.6775 9.0769C6.27136 8.46741 7.07681 8.125 7.91667 8.125H30.0833C30.9232 8.125 31.7286 8.46741 32.3225 9.0769C32.9164 9.6864 33.25 10.513 33.25 11.375V27.625C33.25 28.487 32.9164 29.3136 32.3225 29.9231C31.7286 30.5326 30.9232 30.875 30.0833 30.875H7.91667C7.07681 30.875 6.27136 30.5326 5.6775 29.9231C5.08363 29.3136 4.75 28.487 4.75 27.625V11.375Z" stroke="#EEB831" strokeWidth="2.75" strokeLinecap="round" strokeLinejoin="round" />
@@ -59,7 +58,7 @@ export function Header() {
 						</defs>
 					</svg>
 					<span className='fw-bolder'>Gmail</span>
-				</a>
+				</button>
 			</div>
 			{showModal && (
 				<div className='copiado'>
@@ -68,7 +67,7 @@ export function Header() {
 						<path d="M7 7m0 2.667a2.667 2.667 0 0 1 2.667 -2.667h8.666a2.667 2.667 0 0 1 2.667 2.667v8.666a2.667 2.667 0 0 1 -2.667 2.667h-8.666a2.667 2.667 0 0 1 -2.667 -2.667z" />
 						<path d="M4.012 16.737a2.005 2.005 0 0 1 -1.012 -1.737v-10c0 -1.1 .9 -2 2 -2h10c.75 0 1.158 .385 1.5 1" />
 					</svg>
-					Correo copiado
+					Copy to clipboard
 				</div>
 			)}
 

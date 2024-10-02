@@ -16,6 +16,12 @@
 	color: #D2D2D2;
 }
 
+.header button{
+	color: #D2D2D2;
+	background: transparent;
+	border: none;
+}
+
 .imgTop{
 	position: absolute;
 	z-index: 1;

@@ -4,7 +4,7 @@ import './proyects.css';
 export function Proyects() {
 	return (
 		<section className='proyects_container d-flex align-items-center justify-content-center col-12 col-lg-10 col-md-10 '>
-			<div className='col-lg-8 col-12'>
+			<div className='col-lg-9 col-12'>
 				<h2 className="gradient fw-bold">&lt;PROJECTS&gt;</h2>
 				<div className='d-flex flex-column cards-container gap-5'>
 					<ProyectCard

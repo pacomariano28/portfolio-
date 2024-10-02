@@ -7,13 +7,15 @@ export function About() {
 				<aside className='d-flex flex-column order-2 order-lg-1 col-10 col-lg-6'>
 					<h2 className='fw-bold gradient aboutTitle '>ABOUT ME</h2>
 					<p className='text-light fs-5'>
-						Me llamo Francisco pero mis amigos me llaman Paco
-						Empecé en la programación con un Amstrad,
-						tenía 10 años. Actualmente estoy liderando
-						equipos de desarrollo en multinacionales. Me llamo Francisco pero mis amigos me llaman Paco
-						Empecé en la programación con un Amstrad,
-						tenía 10 años. Actualmente estoy liderando
-						equipos de desarrollo en multinacionales.
+						I'm Francisco, but everyone calls me <span className='text-warning fw-bold'>Paco!</span>
+						<br />
+						<span className='text-warning fw-bold'>Active web developer constantly evolving</span>, may i say.
+						<br /><br />
+						While I’m <span className='text-warning fw-bold'>passionate about design, layout, and animation details</span>, I also have experience in other areas of web development.🚀
+						<br /><br />
+						Currently studying at <a className='text-warning fw-bold' target='blank' href="https://www.fundaciontelefonica.com/empleabilidad/campus-42/"> 42 Málaga</a> and already hold a DAW degree. 
+						<br />
+						I'm always <span className='text-warning fw-bold'>working on new projects, improving my skills, and advancing</span> in this ever-changing world of development. 😁
 					</p>
 				</aside>
 
