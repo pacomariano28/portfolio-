@@ -2,19 +2,22 @@ import './about.css'
 
 export function About() {
 	return (
-		<section className='col-12 about p-0 mb-3'>
+		<section className='col-12 about p-3 pi-0 mb-5'>
 			<article className='d-flex flex-lg-row flex-column align-items-center justify-content-center w-100 gap-5 p-0'>
 				<aside className='d-flex flex-column order-2 col-12 col-lg-5'>
 					<h2 className='fw-bold gradient aboutTitle ms-3 ms-lg-0 ms-md-3'>ABOUT ME</h2>
 					<p className='text-light fs-5'>
-						I'm Francisco, but everyone calls me <span className='text-warning fw-bold'>Paco!</span>
-						<br />
-						<span className='text-warning fw-bold'>Active web developer constantly evolving</span>, may i say.
+						I'm Francisco, but everyone calls me
+						<div className='text-warning fw-bold fs-1 jumpscare-text ms-2'>
+							<span>P</span><span>a</span><span>c</span><span>o</span><span>!</span>
+						</div>
+						<br /><br />
+						Active <span className='text-warning fw-bold'>web developer</span> constantly evolving, may i say.
 						<br /><br />
 						While I'm <span className='text-warning fw-bold'>passionate about design, layout, and animation details</span>, I also have experience in other areas of web development.🚀
 						<br /><br />
-						Currently studying at <a className='text-warning fw-bold' target='blank' href="https://www.fundaciontelefonica.com/empleabilidad/campus-42/"> 42 Málaga</a> and already hold a DAW degree. 
-						<br />
+						Currently studying at <a className='text-warning fw-bold' target='blank' href="https://www.fundaciontelefonica.com/empleabilidad/campus-42/"> 42 Málaga</a> and already hold a <span className='text-warning fw-bold'> Web Aplication Developer degree</span>.
+						<br /><br />
 						I'm always <span className='text-warning fw-bold'>working on new projects, improving my skills, and advancing</span> in this ever-changing world of development. 😁
 					</p>
 				</aside>

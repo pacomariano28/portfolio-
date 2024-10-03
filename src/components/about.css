@@ -1,15 +1,13 @@
 .about:hover {
 	.about_img {
 		border: 2px solid #c87e38;
-		padding: .2vw;
-		transform: rotate(5deg);
 		cursor: grab;
 	}
 }
 
 .about_img {
 	padding: .4vw;
-	transform: rotate(3deg);
+
 	border-radius: inherit;
 	border: 2px solid #c87e38;
 	border-radius: 18px;
@@ -23,4 +21,57 @@
 
 section {
 	position: relative;
+}
+
+.jumpscare-text {
+	display: inline-block;
+	font-size: 48px;
+	font-weight: bold;
+}
+
+.jumpscare-text span:nth-child(5) {
+	display: inline-block;
+	animation: jumpscare 2s ease-in-out infinite;
+	animation-fill-mode: forwards;
+	animation-delay: calc(var(--i) * 150ms);
+}
+
+
+
+@keyframes jumpscare {
+	0% {
+		transform: translateY(0) rotate(0);
+	}
+
+	10% {
+		transform: translateX(5px) rotate(-10deg);
+	}
+
+	20% {
+		transform: translateY(0px) translateX(5px) rotate(10deg);
+	}
+
+	30% {
+		transform: translateY(0px) translateX(5px) rotate(-10deg);
+	}
+
+	40% {
+		transform: translateY(0px) translateX(5px) rotate(10deg);
+	}
+
+	50% {
+		transform: translateY(0px) translateX(5px) rotate(-10deg);
+	}
+
+	60% {
+		transform: translateY(0px) translateX(5px) rotate(10deg);
+	}
+
+	70% {
+		transform: translateY(0) rotate(0);
+	}
+
+	100% {
+		transform: translateY(0) rotate(0);
+	}
 }
