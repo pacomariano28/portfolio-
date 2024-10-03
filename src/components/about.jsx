@@ -2,10 +2,10 @@ import './about.css'
 
 export function About() {
 	return (
-		<section className='mb-5 col-12 about mb-3'>
-			<article className='d-flex flex-lg-row flex-column align-items-center justify-content-center w-100 gap-5'>
+		<section className='col-12 about p-0 mb-3'>
+			<article className='d-flex flex-lg-row flex-column align-items-center justify-content-center w-100 gap-5 p-0'>
 				<aside className='d-flex flex-column order-2 col-12 col-lg-5'>
-					<h2 className='fw-bold gradient aboutTitle '>ABOUT ME</h2>
+					<h2 className='fw-bold gradient aboutTitle ms-3 ms-lg-0 ms-md-3'>ABOUT ME</h2>
 					<p className='text-light fs-5'>
 						I'm Francisco, but everyone calls me <span className='text-warning fw-bold'>Paco!</span>
 						<br />
