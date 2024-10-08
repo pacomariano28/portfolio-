@@ -4,7 +4,7 @@ export function Hero() {
 	return (
 		<section className='hero col-12 col-lg-10 col-md-10'>
 			<div className='d-flex flex-column align-items-start'>
-				<h1 className="gradient">pacode<span className='gradient'>|</span></h1>
+				<h1 className="gradient">pacoding<span className='gradient'>|</span></h1>
 				<span className='ms-2'><span className='text-warning'>Web developer</span> and UI/UX designer</span>
 				<div className="d-flex gap-3 align-items-center mt-lg-2 mt-4 ms-1">
 					<span className="p-2 badge rounded-pill text-success border border-2 border-success float">AVAIBLE FOR WORK</span>

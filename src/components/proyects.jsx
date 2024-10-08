@@ -3,7 +3,7 @@ import './proyects.css';
 
 export function Proyects() {
 	return (
-		<section className='proyects_container d-flex align-items-center justify-content-center col-12 col-lg-10 col-md-10 '>
+		<section className='d-flex align-items-center justify-content-center col-12 col-lg-10 col-md-10 '>
 			<div className='col-lg-9 col-12'>
 				<h2 className="gradient fw-bold">&lt;PROJECTS&gt;</h2>
 				<div className='d-flex flex-column cards-container gap-5'>
@@ -23,7 +23,7 @@ export function Proyects() {
 
 					<ProyectCard
 						title="LAMEBICHOS"
-						techs={["React", "Bootstrap"]}
+						techs={["React", "Bootstrap", "vitejs"]}
 						text="Biblioteca de logos SVG de las marcas más populares. +10k visitas al mes. +2K svgs descargados. Creado desde cero con Next.js, React y Tailwind CSS."
 						image="https://i.ytimg.com/vi/AXST7grbqVQ/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAqzzl1yssvre-LoxZYoeakZzksoQ"
 					/>

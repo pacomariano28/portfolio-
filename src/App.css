@@ -85,7 +85,7 @@ footer {
 	border-radius: 18px;
 	border-left: 2px solid var(--clr1);
 
-	transition: transform .3s ease .1s, color .5s ease, border .2s .2s, background-color .5s ease;
+	transition: transform .2s ease .1s, color .5s ease, border .2s .2s, background-color .5s ease;
 
 	view-timeline-name: --card;
 	view-timeline-axis: block;

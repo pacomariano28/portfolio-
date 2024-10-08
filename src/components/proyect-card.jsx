@@ -8,17 +8,17 @@ const ProyectCard = ({ title, techs, text, image }) => {
 				<img src={image} alt="proyect img" className='img-fluid rounded-4' />
 			</div>
 
-			<div className="col-12 col-lg-7">
+			<div className="col-12 col-lg-7 d-flex flex-column justify-content-start gap-2">
 				<h3 className='fw-bold text-light'>{title}</h3>
-				<div className="techs-container d-flex gap-3 mt-3">
+				<div className="techs-container d-flex gap-3">
 					{techs.map((tech, index) => (
 						<div key={index} className={`tech-pill ${tech.toLowerCase()}`}>
 							<img src={`https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/${tech.toLowerCase()}/${tech.toLowerCase()}-original.svg`} alt={`${tech} logo`} className="tech-logo" />
-							<span>{tech}</span>
+							<span>{tech.toLowerCase()}</span>
 						</div>
 					))}
 				</div>
-				<p className='mt-3 fs-5 col-12'>{text}</p>
+				<p className='text-start mt-2 ps-0 fs-5 col-12'>{text}</p>
 			</div>
 		</article>
 

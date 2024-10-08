@@ -14,14 +14,13 @@ section {
 	cursor: pointer;
 
 	&:hover .image-container{
-		animation: float 1s ease infinite;
+		animation: float 1.5s ease infinite;
 	}
 }
 
 .image-container {
 	border: 1px solid #0b0b0b;
 	border-radius: 18px;
-	/* transform: perspective(460px) rotateX(5deg) rotateY(-11deg) translateX(-5%); */
 	position: relative;
 
 	&::before {
@@ -54,8 +53,11 @@ section {
 	border: 1px solid black;
 	font-size: 1em;
 	color: #fff;
+	transition: all .3s ease;
 
-	
+	&:hover{
+		transform: scale(1.07);
+	}
 }
 
 .tech-pill.bootstrap {
@@ -72,4 +74,8 @@ section {
 
 .tech-pill.react {
 	background-color: #06434F;
+}
+
+.tech-pill.vitejs {
+	background-color: #aba424;
 }
