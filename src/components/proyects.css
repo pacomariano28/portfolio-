@@ -68,6 +68,10 @@ section {
 	background-color: #7d311e;
 }
 
+.tech-pill.angular {
+	background-color: #b12727;
+}
+
 .tech-pill.tailwindcss {
 	background-color: #225C64;
 }

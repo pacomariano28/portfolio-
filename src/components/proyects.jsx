@@ -9,22 +9,22 @@ export function Proyects() {
 				<div className='d-flex flex-column cards-container gap-5'>
 					<ProyectCard
 						title="Weather App"
-						techs={["Astro", "TailwindCss"]}
-						text="Aplicación funcional del tiempo. Funcionalidades completas con especial mimo al diseño."
-						image="https://i0.wp.com/imgs.hipertextual.com/wp-content/uploads/2021/10/visual-studio-code.jpeg?fit=1920%2C1080&quality=50&strip=all&ssl=1"
+						techs={["React", "vitejs", "Bootstrap"]}
+						text="Functional time application. Complete functionalities with special care for the design."
+						image="https://tinyminute.com/wordpress/wp-content/uploads/2019/09/weather-app.jpg"
 					/>
 
 					<ProyectCard
-						title="MECKI JS"
-						techs={["React", "apachekafka"]}
-						text="Biblioteca de logos SVG de las marcas más populares. +10k visitas al mes. +2K svgs descargados. Creado desde cero con Next.js, React y Tailwind CSS."
+						title="SVGL App"
+						techs={["Angular","Nextjs", "TailwindCss"]}
+						text="Library of SVG logos of the most popular brands. Over 10k monthly visits. More than 2k SVGs downloaded. Created from scratch with Next.js, Angular, and Tailwind CSS."
 						image="https://www.blog.brightcoding.dev/wp-content/uploads/2023/05/Angular-Fundamentals-A-Practical-Guide-with-Code-Examples-bright-coding-mohamed-idbrahim.png"
 					/>
 
 					<ProyectCard
-						title="LAMEBICHOS"
-						techs={["React", "Bootstrap", "vitejs"]}
-						text="Biblioteca de logos SVG de las marcas más populares. +10k visitas al mes. +2K svgs descargados. Creado desde cero con Next.js, React y Tailwind CSS."
+						title="Tailwind Bros"
+						techs={["React", "TailwindCss"]}
+						text="Landing page of Mario Bros created with Tailwind CSS and React."
 						image="https://i.ytimg.com/vi/AXST7grbqVQ/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLAqzzl1yssvre-LoxZYoeakZzksoQ"
 					/>
 				</div>

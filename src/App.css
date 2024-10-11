@@ -24,7 +24,7 @@ body {
 	align-items: center;
 	flex-direction: column;
 	background: rgb(0,0,0);
-	background: linear-gradient(90deg, rgba(0,0,0,1) 0%, rgba(20,10,0,1) 15%, rgba(0,0,0,1) 48%);
+	background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgb(15, 8, 0) 7%, rgba(0,0,0,1) 15%);
 	/* background: var(--bg-main); */
 	color: #D2D2D2;
 	background-repeat: no-repeat;
