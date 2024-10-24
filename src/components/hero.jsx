@@ -5,11 +5,11 @@ export function Hero() {
 		<section className='hero col-12 col-lg-10 col-md-10'>
 			<div className='d-flex flex-column align-items-start'>
 				<h1 className="gradient">pacoding<span className='gradient'>|</span></h1>
-				<span className='ms-2'><span className='text-warning'>Web developer</span> and UI/UX designer</span>
+				<span className='ms-2'><span className='palo'>Web developer</span> and UI/UX designer</span>
 				<div className="d-flex gap-3 align-items-center mt-lg-2 mt-4 ms-1">
-					<span className="p-2 badge rounded-pill text-success border border-2 border-success float">AVAIBLE FOR WORK</span>
-					<span className="fs-3 text-warning">|</span>
-					<a href="/CV_Francisco_Mariano_Ortiz.pdf" download={"CV_Francisco_Mariano_Ortiz.pdf"}>
+					<span className="p-2 badge rounded-pill text-success border border-2 border-success">AVAIBLE FOR WORK</span>
+					<span className="fs-4 palo">|</span>
+					<a href="/CV_Francisco_Mariano_Ortiz.pdf" download={"CV_Francisco_Mariano_Ortiz.pdf"} className='jumpscare'>
 						<svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-file-cv" width="32" height="32" viewBox="0 0 24 24" stroke-width="1.5" stroke="#EDAC40" fill="none" stroke-linecap="round" stroke-linejoin="round">
 							<path stroke="none" d="M0 0h24v24H0z" fill="none" />
 							<path d="M14 3v4a1 1 0 0 0 1 1h4" />
